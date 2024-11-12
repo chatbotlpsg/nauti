@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" type="image/x-icon" href="images/logo2.png">
+    <title>Nauti Chicago</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo2.png" alt="Logo" width="230" height="160" class="d-inline-block align-text-top" id="navbar-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <a href="#booking" class="btn btn-outline-light rounded-pill btn-custom">Book Now</a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="hero-section text-white text-center d-flex align-items-center justify-content-center">
+            <video id="background-video" playsinline autoplay muted loop>
+                <source src="videos/video.mp4" type="video/mp4">
+            </video>
+            <div>
+                <img src="images/logo2.png" alt="Nauti Chicago Logo" class="mb-4 logo-size">
+                
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Assumenda consequuntur animi rerum necessitatibus corporis quod eos perferendis aspernatur quasi tempora reiciendis, nostrum adipisci ducimus quo delectus unde deserunt. Beatae, nihil!</p>
+            </div>
+        </div>
+
+        <section class="parallax-section">
+            <div class="parallax-background">
+
+                
+                <section id="about" class="about-section">
+                    
+                        <div class="container-fluid">
+                            <div class="row align-items-center text-white parallax-section">
+                                <div class="col-lg-6 about-content">
+                                   
+                                        <h2 class="about-title"><i class="fas fa-anchor" style="margin-right: 10px;"></i>About Us</h2>
+                                        
+                                            <p class="about-description">Lorem ipsum dolor sit amet consectetur, 
+                                                adipisicing elit. Molestiae maiores asperiores quas earum, 
+                                                repudiandae tempora dolorum! Placeat, recusandae temporibus.
+                                                Deleniti facilis cum aut ipsa laboriosam a numquam veritatis ducimus rerum.</p>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+
+            </div>
+        </section>
+    </header>
+
+
+
+
+
+    <section id="premium-services" class="premium-services-section">
+        <div class="container">
+            <h2 class="premium-services-section-title"><i class="fas fa-anchor" style="margin-right: 10px;"></i>Premium Boat Rental Services</h2>
+            <div class="services-slider">
+                <div class="service-item">
+                    <img src="images/stock.jpg" alt="Fireworks">
+                    <h3>Fireworks</h3>
+                    <p>Starting from Memorial Day Weekend until Labor Day Weekend, there are fireworks displays at Navy Pier. You can book a private charter to enjoy a summer evening with stunning sunsets and the fireworks display at Navy Pier.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/stock6.jpg" alt="Holidays">
+                    <h3>Holidays</h3>
+                    <p>Make holidays and weekends extra special with specialty prices and limited availability for occasions like Fourth of July Weekend, Labor Day Weekend, Memorial Day Weekend, Chicago Scene Boat Party, and Chicago Air & Water Show.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/stock2.jpg" alt="Celebration Events">
+                    <h3>Celebration Events</h3>
+                    <p>Whether planning a birthday, bachelor/bachelorette party, or graduation celebration, a private boat charter is a perfect way to make the event unforgettable.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/stock3.jpg" alt="Corporate Outings">
+                    <h3>Corporate Outings</h3>
+                    <p>Treat your team to a unique and memorable experience by chartering a boat for your next corporate outing. The luxury boats offer a stunning setting for team-building events, client meetings, or employee appreciation parties.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/stock4.jpg" alt="Social Gatherings">
+                    <h3>Social Gatherings</h3>
+                    <p>Make your next social gathering unforgettable by chartering a boat. Enjoy stunning views of the water and city skyline while socializing with your guests.</p>
+                </div>
+            </div>
+
+            <button class="slider-button left" onclick="scrollToLeft()">❮</button>
+            <button class="slider-button right" onclick="scrollToRight()">❯</button>
+
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+
+        <!-- Section Title -->
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title"><i class="fas fa-anchor" style="margin-right: 10px;"></i>Fleet of Luxury Boats</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/boat.jpg" class="card-img-top" alt="Boat 1" style="transition: transform 0.2s;"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Luxury Boat 1</h5>
+                        <p class="card-text">Detailed information about the boat goes here. Mention the dealer price per hour for different days of the week.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                        <a href="#" class="btn btn-secondary">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/boat.jpg" class="card-img-top" alt="Boat 2" style="transition: transform 0.2s;"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Luxury Boat 2</h5>
+                        <p class="card-text">Detailed information about the boat goes here. Mention the dealer price per hour for different days of the week.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                        <a href="#" class="btn btn-secondary">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/boat.jpg" class="card-img-top" alt="Boat 3" style="transition: transform 0.2s;"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Luxury Boat 3</h5>
+                        <p class="card-text">Detailed information about the boat goes here. Mention the dealer price per hour for different days of the week.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                        <a href="#" class="btn btn-secondary">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="parallax-section">
+        <div class="parallax-background">
+            <section id="Parking-Directions-Card" class="Parking-Directions-Card">
+                <div class="container my-5">
+                    <div class="row scrolling-wrapper">
+                        <!-- Parking Section Card -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-parking mr-2" style="margin-right: 10px;"></i>Parking</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deserunt commodi fugit minus nam, 
+                                        impedit odio tempora iusto sint sunt similique, architecto officiis consequatur ratione possimus obcaecati perferendis ipsa aspernatur?</p>
+                                </div>
+                                <img src="images/map.png" class="card-img-top img-fluid" style="padding: 10px; max-height: 300px; object-fit: contain;" alt="Parking Image">
+                            </div>
+                        </div>
+                        <!-- Directions Section Card -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-map-signs mr-2"style="margin-right: 10px;"></i>Directions</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde, assumenda, 
+                                        maxime fugit atque dicta quia aspernatur voluptatibus molestiae laudantium similique possimus fuga 
+                                        dolorem accusantium amet ducimus temporibus qui voluptate.</p>
+                                </div>
+                                <img src="images/directions.PNG" class="card-img-top img-fluid" style="padding: 10px; max-height: 300px; object-fit: contain;" alt="Directions Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="parallax-section">
+        <div class="parallax-background">
+            <section id="Parking-Directions-Card" class="Parking-Directions-Card">
+                <div class="container my-5">
+                    <div class="row scrolling-wrapper">
+                        <!-- Weather Policy Card -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-dharmachakra mr-2" style="margin-right: 10px;"></i>Weather Policy </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deserunt commodi fugit minus nam, 
+                                        impedit odio tempora iusto sint sunt similique, architecto officiis consequatur ratione possimus obcaecati perferendis ipsa aspernatur?</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <!-- Cancellication Policy Card -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-ship mr-2"style="margin-right: 10px;"></i>Cancellication Policy</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde, assumenda, 
+                                        maxime fugit atque dicta quia aspernatur voluptatibus molestiae laudantium similique possimus fuga 
+                                        dolorem accusantium amet ducimus temporibus qui voluptate.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+        
+        
+    <section class="contact-us-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2><i class="fas fa-envelope-open-text mr-2" style="margin-right: 10px;"></i>Contact Us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <footer class="footerBackground">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <div class="footer-logo-section mb-4">
+                        <!-- Logo Section -->
+                        <img src="images/logo2.png" alt="Nauti Chicago Logo" class="img-fluid">
+                    </div>
+    
+                    <div class="footer-social-icons mb-4">
+                        <a href="https://www.youtube.com/@BlockchainResell" class="text-dark mr-3"><i class="fab fa-youtube fa-2x"></i></a>
+                        <a href="https://www.instagram.com/blockchainresell/" class="text-dark mr-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    </div>
+    
+                    
+    
+                    <!-- Get In Touch Section -->
+                  <!-- Get In Touch Section -->
+                    <div class="footer-get-in-touch mb-4">
+                        <h5 class="mb-3">Get In Touch</h5>
+                        <p class="mb-1"><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i>Chicago, Illinois</p>
+                        <p class="mb-1"><i class="fas fa-envelope" style="margin-right: 10px;"></i>Email: contact@NautiChicago.com</p>
+                        <p class="mb-1"><i class="fas fa-phone" style="margin-right: 10px;"></i>Phone: +1 (312) 590-1720</p>
+                    </div>
+
+    
+                    <!-- Terms and Privacy Policy Section -->
+                    <div class="footer-terms-privacy mb-4">
+                        <a href="Terms.html" class="text-dark mr-2">Terms and Conditions</a> | 
+                        <a href="PrivacyPolicy.html" class="text-dark">Privacy Policy</a>
+                    </div>
+    
+                    <!-- Copyright Section -->
+                    <div class="footer-copyright mb-4">
+                        <p class="text-dark mb-3">Copyright &copy; 2023 Nauti Chicago</p>
+                    </div>
+    
+                    <!-- Confirm Booking Button -->
+                    <div class="footer-confirm-booking mb-4">
+                        <button class="btn btn-primary">Confirm Booking</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDqP_ScUHurMK-xLL5snm8bwqqiR9RzCRQ",
+          authDomain: "nautichicago.firebaseapp.com",
+          projectId: "nautichicago",
+          storageBucket: "nautichicago.appspot.com",
+          messagingSenderId: "857223041967",
+          appId: "1:857223041967:web:edf94f8d98fe7f7fb1155a",
+          measurementId: "G-5QQSBPNG5G"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+   
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '650687e476e8cb0006fd6a0e' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+</html>
